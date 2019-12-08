@@ -11,3 +11,6 @@
 3.git添加或删除远程项目地址
 	添加：git remote add origin project-url。
 	删除：git remote rm origin。
+
+4.git push提交代码报OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443错误
+	git支持git://、http://和ssh://三种协议，git push 本来应该走ssh隧道，但是设置了http代理，所以走了http代理，最后导致提交不了代码。使用命令 git config --global --unset http.proxy取消http代理即可。
