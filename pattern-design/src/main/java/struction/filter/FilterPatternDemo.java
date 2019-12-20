@@ -25,6 +25,7 @@ public class FilterPatternDemo {
         Criteria singleOrFemale = new OrCriteria(single, female);
 
         System.out.println("Males: ");
+
         printPersons(male.meetCriteria(persons));
 
         System.out.println("\nFemales: ");
