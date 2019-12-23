@@ -7,5 +7,7 @@ public class AdapterPatternDemo {
         audioPlayer.play("mp4", "alone.mp4");
         audioPlayer.play("vlc", "far far away.vlc");
         audioPlayer.play("avi", "mind me.mp4");
+        System.out.println("test");
+        System.out.println("test reflog");
     }
 }
