@@ -14,4 +14,7 @@ public class Memento {
     public void test() {
         System.out.println("test git conflict");
     }
+    public void testConflict(){
+        System.out.println("conflict");
+    }
 }
